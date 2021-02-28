@@ -80,7 +80,6 @@ const DrfApiFetch = () => {
       });
   };
 
-  // const handleInputChange = () => (evt) => {
   const handleInputChange = (evt) => {
     const value = evt.target.value;
     const name = evt.target.name;
@@ -115,7 +114,6 @@ const DrfApiFetch = () => {
       <button type="button" onClick={() => getTask()}>
         Get task
       </button>
-      {/* <button type='button' onClick={()=>deleteTask()}>Delete</button> */}
       <h3>
         {selectedTask.title} {selectedTask.id}
       </h3>
